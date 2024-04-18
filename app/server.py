@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def frontpage():
-    message= "Hello, Dev Guru2!"
+    message= "Hello, Dev Guru3!"
     html_table = generate_html_table(num_rows=5)
     return render_template('frontpage.html', message=message, table=html_table)
 
